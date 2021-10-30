@@ -1,0 +1,35 @@
+.food_container {
+    border-radius: 20px;
+    border-color: #39B44A;
+    overflow: hidden;
+}
+.food_img {
+    border-radius: 20px 20px 0 0;
+    transition: .4s ease all;
+}
+.food_container:hover .food_img {
+    transform: scale(1.1);
+}
+
+
+.food_title {
+    font-size: 18px;
+}
+
+
+
+.add_to_cart_button button {
+    background-color: #39B44A;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 7px 40px;
+    transition: .4s ease all;
+}
+
+.add_to_cart_button button:hover {
+    background-color: #fff;
+    border: 2px solid #39B44A;
+    color: #39B44A;
+}

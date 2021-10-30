@@ -1,0 +1,21 @@
+.food_icon i {
+    font-size: 35px;
+}
+
+.food_category {
+    box-shadow: 0 0.5rem 1rem rgb(57,180,74, 0.3);
+    border: 1px solid #39B44A;
+}
+
+.food_icon {
+    background-color: #39B44A;
+    padding: 10px;
+    border-radius: 50px;
+}
+.food_icon i {
+    color: #fff;
+    transition: .4s ease all;
+}
+.food_category:hover .food_icon i {
+    transform: scale(1.2);
+}

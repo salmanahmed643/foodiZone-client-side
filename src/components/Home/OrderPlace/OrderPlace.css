@@ -1,0 +1,28 @@
+.order_details {
+    border: 1px solid #39B44A;
+    padding: 50px 0;
+    border-radius: 7px;
+}
+
+.order_details input {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: #39B44A;
+}
+.order_details input::placeholder {
+    color: #fff;
+}
+.order_details input:focus {
+    border: none;
+}
+
+.order_completed button {
+    margin-top: 10px;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 7px;
+    border: 1px solid #39B44A;
+    font-weight: 500;
+}
