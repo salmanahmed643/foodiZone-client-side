@@ -20,7 +20,7 @@ const Login = () => {
     }
 
     return (
-        <Container className="mt-5">
+        <Container style={{margin: "100px"}}>
             <Row className="justify-content-center align-items-center">
                 <div className="text-center">
                     <h1> Login in with Google </h1>

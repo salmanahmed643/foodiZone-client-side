@@ -22,6 +22,7 @@ const Header = () => {
                             <Nav.Link as={Link} active to="/home">Home <span className="navbar_icon"><i className="fas fa-chevron-right"></i></span> </Nav.Link>
                             <Nav.Link as={Link} to="/category"> Category <span className="navbar_icon"><i className="fas fa-chevron-right"></i></span> </Nav.Link>
                             <Nav.Link as={Link} to="/foods"> Foods <span className="navbar_icon"><i className="fas fa-chevron-right"></i></span> </Nav.Link>
+                            <Nav.Link as={Link} to="/addfoods"> Add Foods <span className="navbar_icon"><i className="fas fa-chevron-right"></i></span> </Nav.Link>
                             <Nav.Link as={Link} to="/restaurants"> Restaurants <span className="navbar_icon"><i className="fas fa-chevron-right"></i></span> </Nav.Link>
 
                             <Nav style={{color: '#39B44A'}} className="px-3 fw-bold">

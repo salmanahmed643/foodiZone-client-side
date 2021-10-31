@@ -11,6 +11,7 @@ import AuthProvider from './components/Context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Restaurants from './components/Home/Restaurants/Restaurants';
 import Footer from './components/Shared/Footer/Footer';
+import AddFoods from './components/Home/AddFoods/AddFoods';
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
           <Route exact path="/foods">
             <Foods></Foods>
           </Route>
+          <PrivateRoute exact path="/addfoods">
+            <AddFoods></AddFoods>
+          </PrivateRoute>
           <Route exact path="/restaurants">
             <Restaurants></Restaurants>
           </Route>
