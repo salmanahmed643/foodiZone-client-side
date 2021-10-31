@@ -6,13 +6,13 @@ const Foods = () => {
     const [foods, setFoods] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:7000/foods')
+        fetch('https://agile-journey-44288.herokuapp.com/foods')
         .then(res => res.json())
         .then(data => setFoods(data))
     }, []);
     return (
         <>
-            <Container className="mt-5">
+            <Container style={{marginBottom: "100px"}}>
                 <div className="text-center my-5">
                     <h1> Our Menu </h1>
                 </div>

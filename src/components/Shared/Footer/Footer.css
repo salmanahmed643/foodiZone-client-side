@@ -1,0 +1,31 @@
+.footer_container {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+/* subscribe */
+.subscribe button {
+    background-color: #39B44A;
+    border: none;
+    color: #fff;
+}
+
+
+.get_together p {
+    font-size: 14px;
+}
+
+
+
+/* about us */
+.about_us a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: .5s ease all;
+}
+.about_us a:hover {
+    color: #39B44A;
+}
+

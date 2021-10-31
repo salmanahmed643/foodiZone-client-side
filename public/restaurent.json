@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://i.ibb.co/q57wC3q/002.jpg",
+        "name": "Restaurant Monaco",
+        "day": "Monday - Saturday",
+        "time": "11:00 - 18:00"
+    },
+    {
+        "img": "https://i.ibb.co/1mzTvMJ/003.jpg",
+        "name": "Ribs and Beer",
+        "day": "Monday - Saturday",
+        "time": "09:00 - 18:00"
+    },
+    {
+        "img": "https://i.ibb.co/X43pvNc/004.jpg",
+        "name": "Sushiteria",
+        "day": "Monday - Saturday",
+        "time": "08:00 - 18:00"
+    },
+    {
+        "img": "https://i.ibb.co/56PVsYN/005.jpg",
+        "name": "Happy Grill Cafe",
+        "day": "Monday - Saturday",
+        "time": "10:00 - 18:00"
+    }
+]

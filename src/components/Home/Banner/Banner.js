@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <>
           <Container className="mt-5">
-            <Row className="d-flex justify-content-center align-items-center">
+            <Row className="d-flex justify-content-center align-items-center g-5">
                 <div className="col-md-6">
                     <div className="text-center">
                         <h1 className="d-inline">Express <br /> <span className="delivery_style px-3 d-inline-block m-3"> Home Delivery </span> </h1>

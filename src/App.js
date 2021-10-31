@@ -9,6 +9,8 @@ import Category from './components/Home/Category/Category';
 import Login from './components/Login/Login/Login';
 import AuthProvider from './components/Context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Restaurants from './components/Home/Restaurants/Restaurants';
+import Footer from './components/Shared/Footer/Footer';
 
 
 function App() {
@@ -29,6 +31,9 @@ function App() {
           <Route exact path="/foods">
             <Foods></Foods>
           </Route>
+          <Route exact path="/restaurants">
+            <Restaurants></Restaurants>
+          </Route>
           <PrivateRoute exact path="/orderplace/:orderId">
             <OrderPlace></OrderPlace>
           </PrivateRoute>
@@ -36,6 +41,7 @@ function App() {
             <Login></Login>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </AuthProvider>
   );

@@ -11,7 +11,7 @@ const OrderPlace = () => {
     const {name, img, price} = order;
 
     useEffect( () => {
-        fetch(`http://localhost:7000/foods/${orderId}`)
+        fetch(`https://agile-journey-44288.herokuapp.com/foods/${orderId}`)
         .then(res => res.json())
         .then(data => setOrder(data))
     }, []);

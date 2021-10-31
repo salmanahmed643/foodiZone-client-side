@@ -5,8 +5,11 @@ import './Category.css'
 const Category = () => {
     return (
         <>
-            <Container>
+            <Container style={{marginBottom: "100px"}}>
                 <Row className="g-4 mt-5">
+                    <div>
+                        <h1 className="mt-5 text-center"> Category </h1>
+                    </div>
                     <div className="col-sm-6 col-lg-3">
                         <div className="food_category  d-flex justify-content-center align-items-center p-4 rounded-3">
                             <div className="food_icon me-4">
